@@ -91,7 +91,7 @@ body {
 
 
 .events {
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   grid-row-start: 2;
   grid-row-end: 10;
@@ -107,6 +107,7 @@ body {
 
 .events-title{
 
+  border-bottom: 5px solid #EA7600;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -115,88 +116,21 @@ body {
 
 .event-banner{
 
-  background-color: lawngreen;
+  background-color:white;
   grid-row-start: 2;
   grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 8;
 
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-
-/* ---------------------------- EVENTO - BANNER - HIJOS  ------------------------------ */
-
-.event-banner-item{
-  background-color: darkblue;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  position: relative;
-  height: 300px;
-}
-
-.event-ask-question{
-
-  background-color: white;
-  grid-column-start: 6;
-  grid-column-end: 9;
-}
-
-/* ------------------------- FIN EVENTO - BANNER - HIJOS  ------------------------------ */
-
-.events-list{
-
-  background-color: #b1b1b1;
-  grid-row-start: 6;
-  grid-row-end: 8;
-  grid-column-start: 1;
-  grid-column-end: 8;
-}
-
-/* ---------------------------- NOTICIAS --------------------------------- */
-
-
-.news {
   padding: 5px;
-  background-color: white;
-  grid-row-start: 2;
-  grid-row-end: 10;
-  grid-column-start: 8;
-  grid-column-end: 12;
-}
-.footer {
-  height: 200px;
-  background-color: #002F6C;
-  grid-row-start: 10;
-  grid-row-end: 12;
-  grid-column-start: 1;
-  grid-column-end: 12;
 }
 
-/* --------------------------------------------------------------------- */
-
-.image-container img {
-  width: 100%;
-}
-
-.new-item{
-
-  position: relative; 
-  width: 100%;
-}
 
 .event-item-banner{
   height: 100%;
 }
-
-.image-background{
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-}
-
 .event-item{
 
   position: relative; 
@@ -206,14 +140,16 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.events-list > .event-item > .event-text {
+.event-item > .event-text {
   grid-column-start: 3;
   grid-column-end: 9;
 }
-.events-list > .event-item > .image-container {
+.event-item > .image-container-event {
   grid-column-start: 1;
   grid-column-end: 3;
   max-height: 300px;
+  position: relative;
+  
 }
 
 .event-item{
@@ -238,3 +174,88 @@ h2 {
   background: rgba(0,0,0,.5);
   color: white;
 }
+
+
+/* ---------------------------- EVENTO - BANNER - HIJOS  ------------------------------ */
+
+.event-banner-item{
+  background-color: darkblue;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  position: relative;
+  height: 300px;
+}
+
+.event-ask-question{
+
+  margin: 5px;
+  background-color: white;
+  grid-column-start: 6;
+  grid-column-end: 9;
+}
+
+/* ------------------------- FIN EVENTO - BANNER - HIJOS  ------------------------------ */
+
+.events-list{
+
+  background-color: #b1b1b1;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  padding: 5px;
+}
+
+/* ---------------------------- NOTICIAS --------------------------------- */
+
+.news-title{
+
+  border-bottom: 5px solid #EA7600;
+}
+
+.news {
+  padding: 10px;
+  background-color: white;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  grid-column-start: 8;
+  grid-column-end: 12;
+}
+
+.news-list{
+  padding: 5px;
+}
+
+.footer {
+  padding: 5px;
+  height: 450px;
+  background-color: #002F6C;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  color: aliceblue;
+}
+
+.footer-details{
+  padding: 5px;
+}
+
+/* ------------------------------- IMAGES -------------------------------------- */
+
+.image-container img {
+  width: 100%;
+}
+
+.new-item{
+
+  position: relative; 
+  width: 100%;
+}
+
+.image-background{
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
