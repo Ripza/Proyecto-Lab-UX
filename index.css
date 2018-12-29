@@ -1,0 +1,240 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0px;
+  background-color: #b1b1b1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title-container{
+  background-color: white;
+  height: 30px;
+  color: #EA7600;
+  font-weight: bold;
+}
+
+/* --------------------------- BANNER ----------------------------------- */
+
+.banner {
+  background-color: #EA7600;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 12;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+/* ---------------------------- BANNER - HIJOS  ------------------------------ */
+
+.logo{
+  background-color: #EA7600;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+
+}
+
+.logo-image{
+  width: 80px;
+  height: 80px;
+}
+
+
+.login-image{
+  width: 50px;
+  height: 50px;
+}
+
+.title{
+  margin: 5px;
+  color: aliceblue;
+  background-color: #EA7600;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.title * {
+
+  margin: 0px;
+}
+
+.login{
+
+  background-color: #EA7600;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 11;
+  grid-column-end: 13;
+
+}
+
+
+/* ------------------------- FIN BANNER - HIJOS  ------------------------------ */
+
+/* ---------------------------- EVENTOS -------------------------------------- */
+
+
+.events {
+  padding: 5px;
+  background-color: white;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: 8;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/* ---------------------------- EVENTOS - HIJOS  ------------------------------ */
+
+.events-title{
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+.event-banner{
+
+  background-color: lawngreen;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 8;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/* ---------------------------- EVENTO - BANNER - HIJOS  ------------------------------ */
+
+.event-banner-item{
+  background-color: darkblue;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  position: relative;
+  height: 300px;
+}
+
+.event-ask-question{
+
+  background-color: white;
+  grid-column-start: 6;
+  grid-column-end: 9;
+}
+
+/* ------------------------- FIN EVENTO - BANNER - HIJOS  ------------------------------ */
+
+.events-list{
+
+  background-color: #b1b1b1;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+/* ---------------------------- NOTICIAS --------------------------------- */
+
+
+.news {
+  padding: 5px;
+  background-color: white;
+  grid-row-start: 2;
+  grid-row-end: 10;
+  grid-column-start: 8;
+  grid-column-end: 12;
+}
+.footer {
+  height: 200px;
+  background-color: #002F6C;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+/* --------------------------------------------------------------------- */
+
+.image-container img {
+  width: 100%;
+}
+
+.new-item{
+
+  position: relative; 
+  width: 100%;
+}
+
+.event-item-banner{
+  height: 100%;
+}
+
+.image-background{
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.event-item{
+
+  position: relative; 
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.events-list > .event-item > .event-text {
+  grid-column-start: 3;
+  grid-column-end: 9;
+}
+.events-list > .event-item > .image-container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  max-height: 300px;
+}
+
+.event-item{
+
+  position: relative;
+  height: 150px;
+}
+
+.event-text { 
+  left: 0; 
+  width: 100%; 
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: white;
+}
+
+h2 { 
+  position: absolute; 
+  left: 0; 
+  width: 100%; 
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: white;
+}
