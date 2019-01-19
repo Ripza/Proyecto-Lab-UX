@@ -27,6 +27,16 @@ module.exports = (options = {}) => ({
               }]
           },
           {
+            test: /\.css$/,
+            use: [{
+                  loader: "style-loader" // creates style nodes from JS strings
+              }, {
+                  loader: "css-loader" // translates CSS into CommonJS
+              }, {
+                  loader: "sass-loader" // compiles Sass to CSS
+              }]
+          },
+          {
             test:  /\.(jpg|gif|png|svg|woff|ttf|wav|mp3)$/,
             loader: "file-loader?name=img/img-[hash:6].[ext]"
           }

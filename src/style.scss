@@ -254,6 +254,86 @@ footer {
   }
 }
 
+.events-list{
+  overflow-y: scroll;
+  height:100vh;
+  .event-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0.5em 0.5em 0.5em $third-color;
+    margin-bottom: 1em;
+
+    min-height: 300px;
+    .img-container-1{
+      background-image: url('./img/evento-1.jpg');
+      background-position: fixed;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .text-side{ 
+      display: grid;
+      grid-template-rows: 1fr auto auto auto;
+      .title{
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .date{
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      .place{
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1.2em;
+      }
+      .text{
+        text-align: start;
+        padding-left: 0.5em;
+      }
+      .button{
+        padding: 0.5em;
+      }
+    }
+  }
+}
+.events-nav{
+  border: 2px solid white;
+  .search{
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+  }
+  .filters{
+    text-align: start;
+    padding-left: 1em;
+    padding-right: 1em;
+    .title{
+      font-size: 1.2em;
+      font-weight: bold;
+      color: $main-color;
+      border-top: 5px solid $main-color;
+    }
+  }
+  .calendar{
+    text-align: center;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    .title{
+      text-align: start;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: $main-color;
+      border-top: 5px solid $main-color;
+    }
+  }
+}
+
 /**
  * News Styles
  */
@@ -338,4 +418,8 @@ footer {
   background-color: white;
   color: $main-color;
   font-weight: bold;
+}
+
+.local-navigation{
+  background-color: blue;
 }
