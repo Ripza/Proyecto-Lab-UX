@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="second">
-            <h2>¿Quieres descubrir eventos de acuerdo a tus intereses?<br><br><a href="/login">Ingresa</a> a la plataforma y obten contenido personalizado</h2>
+            <h2>¿Quieres descubrir eventos de acuerdo a tus intereses?<br><br><a href="/#/login">Ingresa</a> a la plataforma y obten contenido personalizado</h2>
           </div>
           <div class="item-1">
             <div class="img-container"></div>
@@ -47,6 +47,13 @@
   
 </div>
 </template>
+
+<style>
+footer {
+  margin-top: 20em;
+}
+</style>
+
 <script>
 export default{
   data(){
