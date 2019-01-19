@@ -11,6 +11,11 @@ html {
   box-sizing: border-box;
 }
 
+.holder{
+  min-height: 100%;
+  position:relative;
+}
+
 *,
 *:before,
 *:after {
@@ -24,6 +29,7 @@ body {
   min-height: 100%;
   height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  padding-bottom: 100px; 
 }
 
 header{
@@ -102,9 +108,6 @@ header{
   text-align: center;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  img{
-    max-width: 200px;
-  }
   height: 100%;
 }
 
@@ -119,13 +122,13 @@ header{
  */
 
 footer {
-  position: relative;
+  background-color: $secondary-color;
   color: white;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: $secondary-color;
+  margin-top: 20em;
   text-align: center;
   height: 450px;
 }
@@ -142,7 +145,7 @@ footer {
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
-    max-height: 2em;
+    height: 2em;
     border-bottom: 5px solid $main-color;
     background-color: white;
     text-align: start;
@@ -153,7 +156,8 @@ footer {
     grid-row-start: 2;
     grid-row-end: 5;
     background-color: blue;
-    min-height: 600px;
+    min-height: 500px;
+    border: 5px solid white;
     .img-container{
       display: grid;
       background-image: url('./img/evento-1.jpg');
@@ -181,11 +185,14 @@ footer {
     grid-column-end: 6; 
     grid-row-start: 2;
     grid-row-end: 5;
+    border: 5px solid white;
   }
-  div{
+  .item{
     background-color: orange;
     grid-column-start: 1;
     grid-column-end: 6; 
+    min-height: 200px;
+    border: 5px solid white;
   }
 }
 
@@ -195,25 +202,23 @@ footer {
 
 .news{
   display: grid;
-  /*
-  grid-template-rows: 10% 45% 45%;
-  */
-  grid-template-columns: repeat(2, 50%);
-  margin: 1%;
+  grid-template-rows: 2em calc(50% - 1em) calc(50% - 1em);
+  
   .title{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 1;
-    max-height: 2em;
+    height: 2em;
     border-bottom: 5px solid $main-color;
     background-color: white;
     text-align: start;
   }
-  div{
+  .item{
     background-color: green;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 6;
+    border: 5px solid white;
   }
 }
 
@@ -225,24 +230,4 @@ footer {
   background-color: white;
   color: $main-color;
   font-weight: bold;
-}
-
-/**
- * More Styles
- */
- 
-.image-container img {
-  width: 100%;
-}
-
-.new-item{
-
-  position: relative; 
-  width: 100%;
-}
-
-.image-background{
-  background-position: center;
-  background-size: cover;
-  height: 100%;
 }

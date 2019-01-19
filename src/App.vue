@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="holder">
     <header>
       <div class="branding">
         <img src="./img/logo.png"/>
@@ -19,10 +19,11 @@
     <main class="container">
       <router-view></router-view>
     </main>
+
     <footer>
       Footer
     </footer>
-</div>
+  </div>
 </template>
 
 <script>
