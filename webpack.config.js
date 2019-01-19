@@ -27,7 +27,7 @@ module.exports = (options = {}) => ({
               }]
           },
           {
-            test:  /\.(jpeg|gif|png|svg|woff|ttf|wav|mp3)$/,
+            test:  /\.(jpg|gif|png|svg|woff|ttf|wav|mp3)$/,
             loader: "file-loader?name=img/img-[hash:6].[ext]"
           }
         ]

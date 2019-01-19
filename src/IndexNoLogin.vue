@@ -10,12 +10,20 @@
     <div class="two-columns">
 
       <div class="events">
-        <div class="first">Evento</div>
-        <div class="second">Evento</div>
+        <div class="title title-container">Eventos</div>
+        <div class="first">
+          <div class="img-container">
+            <h2> Festival de Divulgación del Conocimiento "Cambalache"</h2>
+          </div>
+        </div>
+        <div class="second">
+          <h2>¿Quieres descubrir eventos de acuerdo a tus intereses ? Ingresa a la plataforma y obten contenido personalizado</h2>
+        </div>
         <div>Evento</div>
         <div>Evento</div>
       </div>
-      <div class="news"> 
+      <div class="news">
+        <div class="title title-container">Noticias</div>
         <div>Noticia</div>
         <div>Noticia</div>
       </div>
