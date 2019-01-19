@@ -1,0 +1,164 @@
+$main-color:#EA7600;
+$secondary-color:#002F6C;
+$third-color:#B1B1B1;
+/**
+ * Demo Styles
+ */
+
+ 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color:black;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header{
+  padding: 10px 20px;
+  /*
+  background-color: lighten(#efefef, 3%);
+  */
+  background-color: $main-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .branding{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    img{
+      width: 20%;
+      display: center;
+    }
+    .branding-name{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: start;
+      padding: 1em;
+      .title{
+        font-weight: bold;
+        color:white;
+        font-size: 2rem;
+      }
+      .subtitle{
+        color:white;
+        font-size: 1.1rem;
+      }
+    }
+    span{
+      display: center;
+      color:white;
+    }
+  }
+  nav{
+    a{
+      font-size: 1em;
+      display: inline-block;
+      padding: 5px 10px;
+      /*
+      color:darken($secondary-color, 10%);
+      */
+      color:white;
+      text-decoration: none;
+      position: relative;
+      cursor: pointer;
+      &:hover::after{
+          content:'';
+          position: absolute;
+          bottom: -5px;
+          left: 0px;
+          width: 100%;
+          height: 3px;
+          background-color: $third-color;
+
+      }
+    }
+    .login-button{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .login-image{
+        font-size: 200%;
+      }
+    }
+  }
+}
+.center {
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  img{
+    max-width: 200px;
+  }
+}
+
+.two-columns{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 0.5em;
+}
+
+/**
+ * Footer Styles
+ */
+
+footer {
+  position: relative;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: $secondary-color;
+  text-align: center;
+  height: 450px;
+}
+
+.events{
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  margin: 1%;
+  .first{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .second{
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 6; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  div{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 6; 
+  }
+}
+
+.news{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  margin: 1%;
+  div{
+    background-color: green;
+    min-height: 300px;
+  }
+}
