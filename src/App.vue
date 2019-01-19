@@ -11,12 +11,12 @@
       <nav>
         <div class="login-button">
           <font-awesome-icon class="login-image" icon="sign-in-alt"/>
-          <a href="#/">Iniciar Sesión</a>
+          <a href="#/login">Iniciar Sesión</a>
         </div>
       </nav>
     </header>
 
-    <main class="container">
+    <main>
       <router-view></router-view>
     </main>
 

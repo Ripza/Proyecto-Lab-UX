@@ -7,7 +7,7 @@
       Plantilla hecha con Vue.js y Webpack
     </p>
     -->
-    <div>
+    <div class="container">
       <form>
         <br>
         <div>
@@ -25,14 +25,13 @@
         </div>
       </form>
     </div>
-    
-  
+
 </div>
 </template>
 
 <style>
 footer {
-  margin-top: 20em;
+  margin-top: 0em;
 }
 </style>
 
