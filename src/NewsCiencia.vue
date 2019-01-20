@@ -24,51 +24,19 @@
   
   <div class="news-list">
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="ciencia-1"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Ciencia y Tecnología</div>
+        <div class="title">Torneo de robótica en Planetario define a ganadores para competencia internacional</div>
+        <div class="date">12/06/2017</div>
       </div>
     </div>
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="ciencia-2"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Ciencia y Tecnología</div>
+        <div class="title">Investigan efectos de algas marinas para remover hidrocarburos del mar</div>
+        <div class="date">18/01/2018</div>
       </div>
     </div>
   </div>

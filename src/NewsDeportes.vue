@@ -24,51 +24,19 @@
   
   <div class="news-list">
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="deportes-1"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Deportes</div>
+        <div class="title">Licaf va por el bicampeonato y Periodismo sueña con volver a primera</div>
+        <div class="date">13/12/2018</div>
       </div>
     </div>
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="deportes-2"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Deportes</div>
+        <div class="title">Rugby femenino de la Usach se coronó campeón del torneo de clausura</div>
+        <div class="date">23/11/2018</div>
       </div>
     </div>
   </div>

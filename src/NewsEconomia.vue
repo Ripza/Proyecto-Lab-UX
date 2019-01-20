@@ -24,51 +24,19 @@
   
   <div class="news-list">
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="economia-1"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Economía</div>
+        <div class="title">Economista Pattillo frente a incremento del desempleo: “Imagen global no se ve mal, pero en detalle es compleja”</div>
+        <div class="date">02/01/2018</div>
       </div>
     </div>
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="economia-2"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Economía</div>
+        <div class="title">Alto nivel de endeudamiento revela poca educación financiera de los chilenos</div>
+        <div class="date">11/17/2017</div>
       </div>
     </div>
   </div>

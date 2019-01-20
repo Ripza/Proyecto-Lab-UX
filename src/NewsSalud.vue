@@ -24,51 +24,19 @@
   
   <div class="news-list">
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="salud-1"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Salud</div>
+        <div class="title">Investigación del Plantel revela positivo efecto de la dieta mediterránea en escolares chilenos</div>
+        <div class="date">16/03/2018</div>
       </div>
     </div>
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="salud-2"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Salud</div>
+        <div class="title">Universidad propone nuevo modelo predictivo para medir contaminación</div>
+        <div class="date">25/04/2017</div>
       </div>
     </div>
   </div>

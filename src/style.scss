@@ -69,15 +69,15 @@ header{
       display: center;
       color:white;
     }
+    a{ 
+      color: $main-color;
+    }
   }
   nav{
     a{
       font-size: 1em;
       display: inline-block;
       padding: 5px 10px;
-      /*
-      color:darken($secondary-color, 10%);
-      */
       color:white;
       text-decoration: none;
       position: relative;
@@ -90,8 +90,10 @@ header{
           width: 100%;
           height: 3px;
           background-color: $third-color;
-
       }
+    }
+    a:hover{
+      text-decoration: none;
     }
     .login-button{
       display: flex;
@@ -269,7 +271,7 @@ footer {
     grid-template-columns: 1fr 2fr;
     box-shadow: 0.5em 0.5em 0.5em $third-color;
     margin-bottom: 1em;
-    min-height: 300px;
+    min-height: 250px;
     .img-container-1{
       background-image: url('./img/evento-1.jpg');
       background-position: fixed;
@@ -379,6 +381,13 @@ footer {
     }
   }
 }
+.title-date{
+  text-align: start;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $main-color;
+    border-bottom: 5px solid $main-color;
+}
 
 /**
  * News Styles
@@ -468,29 +477,27 @@ footer {
     grid-template-columns: 1fr 2fr;
     box-shadow: 0.5em 0.5em 0.5em $third-color;
     margin-bottom: 1em;
-    min-height: 300px;
+    min-height: 250px;
     .text-side{
       display: grid;
       grid-template-rows: auto 1fr auto;
       .date{
-        background-color: blue;
         text-align: start;
         padding-left: 0.5em;
         padding-top: 1em;
+        padding-bottom: 1em;
         font-size: 1.2em;
-        font-weight: bold; 
       }
       .title{
-        background-color: green;
         text-align: start;
         padding-left: 0.5em;
         font-size: 1.5em;
         font-weight: bold;
       }
       .category{
-        background-color: red;
         text-align: start;
         padding-left: 0.5em;
+        padding-top: 1em;
         padding-bottom: 1em;
       }
     }
@@ -530,6 +537,105 @@ footer {
   position: relative;
   left: 0;
   max-width: 30%;
+}
+/*
+  Imágenes de noticias de salud
+*/
+.salud-1{
+  display: grid;
+  background-image: url('./img/news/salud-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.salud-2{
+  display: grid;
+  background-image: url('./img/news/salud-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.deportes-1{
+  display: grid;
+  background-image: url('./img/news/deportes-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.deportes-2{
+  display: grid;
+  background-image: url('./img/news/deportes-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cultura-1{
+  display: grid;
+  background-image: url('./img/news/cultura-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cultura-2{
+  display: grid;
+  background-image: url('./img/news/cultura-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.educacion-1{
+  display: grid;
+  background-image: url('./img/news/educacion-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.educacion-2{
+  display: grid;
+  background-image: url('./img/news/educacion-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.ciencia-1{
+  display: grid;
+  background-image: url('./img/news/ciencia-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.ciencia-2{
+  display: grid;
+  background-image: url('./img/news/ciencia-2.jpg');
+  background-position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.economia-1{
+  display: grid;
+  background-image: url('./img/news/economia-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.economia-2{
+  display: grid;
+  background-image: url('./img/news/economia-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /**

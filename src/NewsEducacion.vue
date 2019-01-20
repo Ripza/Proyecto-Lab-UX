@@ -24,51 +24,19 @@
   
   <div class="news-list">
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="educacion-1"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Educación</div>
+        <div class="title">Rector y fallo del TC: “Intereses de unos pocos no pueden imponerse sobre el bien común”</div>
+        <div class="date">29/03/2018</div>
       </div>
     </div>
     <div class="news-item">
-      <div class="img-container-news-1"></div>
+      <div class="educacion-2"></div>
       <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
-      </div>
-    </div>
-    <div class="news-item">
-      <div class="img-container-news-1"></div>
-      <div class="text-side">
-        <div class="category">Categoría</div>
-        <div class="title">Título</div>
-        <div class="date">Fecha</div>
+        <div class="category">Educación</div>
+        <div class="title">No obtuve gratuidad y quiero apelar, ¿cómo hacerlo?</div>
+        <div class="date">21/03/2018</div>
       </div>
     </div>
   </div>
