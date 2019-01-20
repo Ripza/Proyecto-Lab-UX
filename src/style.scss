@@ -495,6 +495,9 @@ footer {
     font-size: 1.2em;
     font-weight: bold;
     border-bottom: 0.25em solid $main-color;
+    a { 
+        color: black;
+    }
   }
   .items-3{
     display: grid;
@@ -502,6 +505,9 @@ footer {
     justify-content: space-around;
     font-size: 1em;
     font-weight: bold;
+    a { 
+        color: black;
+    }
   }
 }
 

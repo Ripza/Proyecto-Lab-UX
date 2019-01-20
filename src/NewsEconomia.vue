@@ -4,7 +4,12 @@
   <div class="news-nav">
     <div class="items-2">
       <div><a href="/#/newscomunidad">Comunidad Universitaria</a></div>
-      <div><a href="/#/newsacademico">Académico</a></div>
+      <div><a href="/#/newsacademico" style="color: orange;">Académico</a></div>
+    </div>
+    <div class="items-3">
+      <div><a href="/#/newseducacion">Educación</a></div>
+      <div><a href="/#/newsciencia">Ciencia y Tecnología</a></div>
+      <div><a href="/#/newseconomia" style="color: orange;">Economía</a></div>
     </div>
   </div>
 

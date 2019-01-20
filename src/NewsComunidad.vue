@@ -3,8 +3,13 @@
 
   <div class="news-nav">
     <div class="items-2">
-      <div><a href="/#/newscomunidad">Comunidad Universitaria</a></div>
+      <div><a href="/#/newscomunidad" style="color: orange;">Comunidad Universitaria</a></div>
       <div><a href="/#/newsacademico">Académico</a></div>
+    </div>
+    <div class="items-3">
+      <div><a href="/#/newssalud">Salud</a></div>
+      <div><a href="/#/newsdeportes">Deportes</a></div>
+      <div><a href="/#/newscultura">Cultura</a></div>
     </div>
   </div>
 
