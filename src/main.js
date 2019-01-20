@@ -32,12 +32,14 @@ import IndexNoLogin from './IndexNoLogin.vue';
 import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
 import Events from './Events.vue';
+import News from './News.vue';
 
 const routes = [
   { path: '/indexNoLogin', alias: '/', component: IndexNoLogin},
   { path: '/login', component: Login},
   { path: '/indexLogin', component: IndexLogin},
-  { path: '/events', component: Events}
+  { path: '/events', component: Events},
+  { path: '/news', component: News}
 ]
 
 // Create the router instance and pass the `routes` option

@@ -20,6 +20,7 @@
       <router-view></router-view>
     </main>
 
+    <!--
     <footer>
       <h2>Eventos</h2>
       <div class="footer-details">
@@ -42,6 +43,7 @@
           <br> Portal Desarrollado por estudiantes para estudiantes
       </div>
     </footer>
+    -->
   </div>
 </template>
 
