@@ -21,36 +21,49 @@
     <div class="news-item">
       <div class="img-container-news-1"></div>
       <div class="text-side">
+        <div class="category">Categoría</div>
         <div class="title">Título</div>
-        <div class="text">texto</div>
+        <div class="date">Fecha</div>
       </div>
     </div>
     <div class="news-item">
       <div class="img-container-news-1"></div>
       <div class="text-side">
+        <div class="category">Categoría</div>
         <div class="title">Título</div>
-        <div class="text">texto</div>
+        <div class="date">Fecha</div>
       </div>
     </div>
     <div class="news-item">
       <div class="img-container-news-1"></div>
       <div class="text-side">
+        <div class="category">Categoría</div>
         <div class="title">Título</div>
-        <div class="text">texto</div>
+        <div class="date">Fecha</div>
       </div>
     </div>
     <div class="news-item">
       <div class="img-container-news-1"></div>
       <div class="text-side">
+        <div class="category">Categoría</div>
         <div class="title">Título</div>
-        <div class="text">texto</div>
+        <div class="date">Fecha</div>
       </div>
     </div>
     <div class="news-item">
       <div class="img-container-news-1"></div>
       <div class="text-side">
+        <div class="category">Categoría</div>
         <div class="title">Título</div>
-        <div class="text">texto</div>
+        <div class="date">Fecha</div>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="img-container-news-1"></div>
+      <div class="text-side">
+        <div class="category">Categoría</div>
+        <div class="title">Título</div>
+        <div class="date">Fecha</div>
       </div>
     </div>
   </div>

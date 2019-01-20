@@ -3,16 +3,20 @@
     <header>
       <div class="branding">
         <img src="./img/logo.png"/>
-        <div class="branding-name">
-          <span class="title">USACH Móvil</span>
-          <span class="subtitle">Portal Eventos & Noticias</span>
-        </div>
+        <a style="display:block" href="#/indexNoLogin">
+          <div class="branding-name">
+            <span class="title">USACH Móvil</span>
+            <span class="subtitle">Portal Eventos & Noticias</span>
+          </div>
+        </a>
       </div>
       <nav>
+        <a style="display:block" href="#/login">
         <div class="login-button">
           <font-awesome-icon class="login-image" icon="sign-in-alt"/>
-          <a href="#/login">Iniciar Sesión</a>
+          Iniciar Sesión
         </div>
+        </a>
       </nav>
     </header>
 
