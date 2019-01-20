@@ -1,11 +1,64 @@
 <template>
 <div class="center">
+
+  <div class="news-nav">
+    <div class="items-2">
+      <div>Comunidad Universitaria</div>
+      <div>Académico</div>
+    </div>
+    <div class="items-3">
+      <div>Salud</div>
+      <div>Deportes</div>
+      <div>Cultura</div>
+    </div>
+  </div>
+
+  <div class="news-search">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><font-awesome-icon icon="search"/></span>
+        </div>
+        <input type="text" class="form-control" placeholder="¿Qué estás buscando?">
+      </div>
+    </div>
   
-  <h2>{{title}}</h2>
-    <img class="logo-big" src="./img/vue-logo.png" />
-    <p>
-      Plantilla hecha con Vue.js y Webpack
-    </p>
+  <div class="news-list">
+    <div class="news-item">
+      <div class="img-container-news-1"></div>
+      <div class="text-side">
+        <div class="title">Título</div>
+        <div class="text">texto</div>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="img-container-news-1"></div>
+      <div class="text-side">
+        <div class="title">Título</div>
+        <div class="text">texto</div>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="img-container-news-1"></div>
+      <div class="text-side">
+        <div class="title">Título</div>
+        <div class="text">texto</div>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="img-container-news-1"></div>
+      <div class="text-side">
+        <div class="title">Título</div>
+        <div class="text">texto</div>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="img-container-news-1"></div>
+      <div class="text-side">
+        <div class="title">Título</div>
+        <div class="text">texto</div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <FooterContent></FooterContent>
@@ -15,9 +68,13 @@
 </template>
 
 <style>
-footer {
-  margin-top: 20em;
-}
+.img-container-news-1{
+      background-image: url('./img/evento-1.jpg');
+      background-position: fixed;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
 </style>
 
 <script>

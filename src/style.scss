@@ -269,7 +269,6 @@ footer {
     grid-template-columns: 1fr 2fr;
     box-shadow: 0.5em 0.5em 0.5em $third-color;
     margin-bottom: 1em;
-
     min-height: 300px;
     .img-container-1{
       background-image: url('./img/evento-1.jpg');
@@ -313,7 +312,7 @@ footer {
       width: 100%;
       height: 100%;
     }
-    .text-side{ 
+    .text-side{
       display: grid;
       grid-template-rows: 1fr auto auto auto;
       .title{
@@ -458,6 +457,61 @@ footer {
       }
     }
   }
+}
+
+.news-list{
+  .news-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0.5em 0.5em 0.5em $third-color;
+    margin-bottom: 1em;
+    min-height: 300px;
+    .text-side{
+      display: grid;
+      grid-template-rows: 1fr 3fr;
+      .title{
+        background-color: green;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .text{
+        background-color: red;
+        text-align: start;
+        padding-left: 0.5em;
+      }
+    }
+  }
+}
+
+.news-nav{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  .items-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 0.25em solid $main-color;
+  }
+  .items-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
+
+.news-search{
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  position: relative;
+  left: 0;
+  max-width: 30%;
 }
 
 /**
