@@ -343,10 +343,10 @@ footer {
 
 .secciones-logueadas{
   display: grid;
-  grid-template-rows: 100px 3fr 3fr 100px;
+  grid-template-rows: 50px 2fr 2fr 50px;
   grid-gap: 1em;
   background-color: white;
-  padding: 10px;
+  padding: 30px;
   border-radius: 10px;
 }
 
@@ -372,6 +372,7 @@ footer {
     border-bottom: 5px solid $main-color;
     background-color: white;
     text-align: start;
+    width: auto;
   }
   .preferencias{
     grid-column-start: 1;
@@ -382,32 +383,47 @@ footer {
     border: 5px solid $main-color;
     background-color: white;
     text-align: start;
+    width: auto;
   }
   .item-1{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 7;
-    min-height: 400px;
+    min-height: 150px;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .item-2{
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 5;
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .item-3{
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 7;
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .item-4{
     grid-column-start: 7;
     grid-column-end: 11;
     grid-row-start: 3;
     grid-row-end: 7;
-    min-height: 400px;
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .seleccion-ventana{
     grid-column-start: 1;
@@ -450,27 +466,40 @@ footer {
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 7;
-    min-height: 400px;
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .item-2{
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 7;
-    min-height: 400px;
-
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .item-3{
     grid-column-start: 7;
     grid-column-end: 11;
     grid-row-start: 3;
     grid-row-end: 5;
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .item-4{
     grid-column-start: 7;
     grid-column-end: 11;
     grid-row-start: 5;
     grid-row-end: 7;
+    min-height: 150;
+    height: auto;
+    min-width: 300px;
+    width: auto;
   }
   .seleccion-ventana{
     grid-column-start: 1;
@@ -527,7 +556,7 @@ footer {
         color: white;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: bold;
       }
     }
@@ -541,7 +570,6 @@ footer {
   grid-gap: 10px;
   box-shadow: 0.5em 0.5em 0.5em $third-color;
   margin-bottom: 1em;
-
   min-height: 300px;
   .imagen-container{
     grid-column-start: 1;
@@ -577,5 +605,31 @@ footer {
     padding-left: 0.5em;
     font-size: 1em;
     font-weight: bold;
+  }
+}
+
+
+.about-us{
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  img{
+      width: 35%;
+      display: center;
+    }
+  .titulo{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .descripcion{
+
+  }
+  .tilulo2{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .integrantes{
+
   }
 }
