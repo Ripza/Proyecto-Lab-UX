@@ -3,10 +3,12 @@
     <header>
       <div class="branding">
         <img src="./img/logo.png"/>
-        <div class="branding-name">
-          <span class="title">USACH Móvil</span>
-          <span class="subtitle">Portal Eventos & Noticias</span>
-        </div>
+        <a style="display:block" href="#/indexNoLogin">
+          <div class="branding-name">
+            <span class="title">USACH Móvil</span>
+            <span class="subtitle">Portal Eventos & Noticias</span>
+          </div>
+        </a>
       </div>
       <nav>
         <a href="#/login" class="login-button">
@@ -20,6 +22,7 @@
       <router-view></router-view>
     </main>
 
+    <!--
     <footer>
       <h2>Eventos</h2>
       <div class="footer-details">
@@ -42,6 +45,7 @@
           <br> Portal Desarrollado por estudiantes para estudiantes
       </div>
     </footer>
+    -->
   </div>
 </template>
 

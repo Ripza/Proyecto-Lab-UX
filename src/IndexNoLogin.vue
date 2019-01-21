@@ -10,7 +10,7 @@
     <div class="two-columns">
 
       <div class="events">
-        <div class="title title-container">Eventos</div>
+        <div class="title title-container"><a href="/#/events">Eventos</a></div>
           <div class="first">
             <div class="img-container">
               <div class="text">Festival de Divulgación del Conocimiento "Cambalache"<br><br>12/12/2018 - 11:00</div>
@@ -30,7 +30,7 @@
         </div>
 
       <div class="news">
-        <div class="title title-container">Noticias</div>
+        <div class="title title-container"><a href="/#/news">Noticias</a></div>
         <div class="item-1">
           <div class="img-container">
             <div class="text">Consideran insuficiente medida que prohíbe la publicación de rankings Simce</div>
@@ -44,17 +44,19 @@
       </div>
 
     </div>
+
+  <footer>
+    <FooterContent></FooterContent>
+  </footer>
   
 </div>
 </template>
 
 <style>
-footer {
-  margin-top: 20em;
-}
 </style>
 
 <script>
+import FooterContent from './FooterContent.vue';
 export default{
   data(){
     return{
@@ -63,6 +65,9 @@ export default{
   },
   mounted:function(){
     console.log('Index.vue')
+  },
+  components:{
+    FooterContent
   }
 }
 </script>

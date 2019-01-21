@@ -24,10 +24,10 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
   color:black;
   position: relative;
-  margin: 0;
   min-height: 100%;
   height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -71,15 +71,15 @@ header{
       display: center;
       color:white;
     }
+    a{ 
+      color: $main-color;
+    }
   }
   nav{
     a{
       font-size: 1em;
       display: inline-block;
       padding: 5px 10px;
-      /*
-      color:darken($secondary-color, 10%);
-      */
       color:white;
       text-decoration: none;
       position: relative;
@@ -92,8 +92,10 @@ header{
           width: 100%;
           height: 3px;
           background-color: $third-color;
-
       }
+    }
+    a:hover{
+      text-decoration: none;
     }
     .login-button{
       display: flex;
@@ -146,6 +148,9 @@ footer {
   padding-left: 0.5em;
   padding-top: 0.5em;
   height: 450px;
+  margin-left: -2.6%;
+  margin-right: -2.6%;
+  min-width: 100ch;
 }
 
 /**
@@ -164,6 +169,9 @@ footer {
     border-bottom: 5px solid $main-color;
     background-color: white;
     text-align: start;
+    a { 
+        color: $main-color;
+    }
   }
   .first{
     grid-column-start: 1;
@@ -271,13 +279,13 @@ footer {
 .events-list{
   overflow-y: scroll;
   height:100vh;
+  border: 1em solid white;
   .event-item{
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0.5em 0.5em 0.5em $third-color;
     margin-bottom: 1em;
-
-    min-height: 300px;
+    min-height: 250px;
     .img-container-1{
       background-image: url('./img/evento-1.jpg');
       background-position: fixed;
@@ -285,7 +293,42 @@ footer {
       width: 100%;
       height: 100%;
     }
-    .text-side{ 
+    .img-container-4{
+      background-image: url('./img/evento-4.jpg');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .img-container-5{
+      background-image: url('./img/evento-5.jpg');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .img-container-6{
+      background-image: url('./img/evento-6.jpg');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .img-container-7{
+      background-image: url('./img/evento-7.jpg');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .img-container-8{
+      background-image: url('./img/evento-8.jpg');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .text-side{
       display: grid;
       grid-template-rows: 1fr auto auto auto;
       .title{
@@ -316,7 +359,7 @@ footer {
   }
 }
 .events-nav{
-  border: 2px solid white;
+  border: 1em solid white;
   .search{
     padding-left: 1em;
     padding-top: 1em;
@@ -332,6 +375,11 @@ footer {
       color: $main-color;
       border-top: 5px solid $main-color;
     }
+    .subtitle{
+      font-size: 1.1em;
+      font-weight: bold;
+      color: $third-color;
+    }
   }
   .calendar{
     text-align: center;
@@ -346,6 +394,13 @@ footer {
       border-top: 5px solid $main-color;
     }
   }
+}
+.title-date{
+  text-align: start;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $main-color;
+    border-bottom: 5px solid $main-color;
 }
 
 /**
@@ -365,6 +420,9 @@ footer {
     border-bottom: 5px solid $main-color;
     background-color: white;
     text-align: start;
+    a { 
+        color: $main-color;
+    }
   }
   .item-1{
     background-color: green;
@@ -422,6 +480,176 @@ footer {
       }
     }
   }
+}
+
+.news-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  .news-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0.5em 0.5em 0.5em $third-color;
+    margin-bottom: 1em;
+    min-height: 250px;
+    .text-side{
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      .date{
+        text-align: start;
+        padding-left: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 1.2em;
+      }
+      .title{
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .category{
+        text-align: start;
+        padding-left: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+      }
+    }
+  }
+}
+
+.news-nav{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  .items-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 0.25em solid $main-color;
+    a { 
+        color: black;
+    }
+  }
+  .items-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    font-size: 1em;
+    font-weight: bold;
+    a { 
+        color: black;
+    }
+  }
+}
+
+.news-search{
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  position: relative;
+  left: 0;
+  max-width: 30%;
+}
+/*
+  Imágenes de noticias de salud
+*/
+.salud-1{
+  display: grid;
+  background-image: url('./img/news/salud-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.salud-2{
+  display: grid;
+  background-image: url('./img/news/salud-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.deportes-1{
+  display: grid;
+  background-image: url('./img/news/deportes-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.deportes-2{
+  display: grid;
+  background-image: url('./img/news/deportes-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cultura-1{
+  display: grid;
+  background-image: url('./img/news/cultura-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cultura-2{
+  display: grid;
+  background-image: url('./img/news/cultura-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.educacion-1{
+  display: grid;
+  background-image: url('./img/news/educacion-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.educacion-2{
+  display: grid;
+  background-image: url('./img/news/educacion-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.ciencia-1{
+  display: grid;
+  background-image: url('./img/news/ciencia-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.ciencia-2{
+  display: grid;
+  background-image: url('./img/news/ciencia-2.jpg');
+  background-position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.economia-1{
+  display: grid;
+  background-image: url('./img/news/economia-1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.economia-2{
+  display: grid;
+  background-image: url('./img/news/economia-2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /**
