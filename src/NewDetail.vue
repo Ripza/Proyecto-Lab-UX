@@ -9,8 +9,8 @@
       <h1><strong>Titulo de noticia</strong></h1>
     </div>
     <div class="new-description"> 
-      <h5 class="font-weight-light">Autor: La Coyuntura</h5>
-      <h5 class="font-weight-light">25 Enero 2019</h5>
+      <h6 class="font-weight-light">Autor: La Coyuntura</h6>
+      <h6 class="font-weight-light">25 Enero 2019</h6>
     </div>
 
     <div class="new-image"> 
@@ -71,8 +71,13 @@
   max-width: 100%;
   width: auto;
   max-height: 550px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
+
+.new-description{
+  color:rgb(119, 119, 119) !important;
+}
+
 .new-details .new-date p{
   font-weight: bold;
 }

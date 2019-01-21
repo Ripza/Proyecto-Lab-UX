@@ -9,8 +9,8 @@
       <h1><strong>Titulo de Evento</strong></h1>
     </div>
     <div class="event-description"> 
-      <h5 class="font-weight-light">Autor: La Coyuntura</h5>
-      <h5 class="font-weight-light">25 Enero 2019</h5>
+      <h6 class="font-weight-light">Autor: La Coyuntura</h6>
+      <h6 class="font-weight-light">25 Enero 2019</h6>
     </div>
 
     <div class="event-image"> 
@@ -19,7 +19,7 @@
 
     <div class="event-details"> 
       <div class="event-date"> 
-        <p>Lugar: VIME</p>
+        <p>Lugar VIME</p>
       </div>
       <div class="event-umovil"> 
         <img class="event-map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tile_4%2C4.svg/2000px-Tile_4%2C4.svg.png"></img>
@@ -71,6 +71,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 600px;
+  color:rgb(119, 119, 119) !important;
 }
 .event-image {
   grid-column-start: 1;
@@ -82,7 +83,7 @@
   /* max-width: 100%; */
   width: auto;
   max-height: 600px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .event-details {
   grid-column-start: 7;
@@ -111,6 +112,7 @@
   align-items: center;
 
   padding-right: 200px;
+  color:rgb(119, 119, 119) !important;
 }
 .event-details .event-umovil .event-map{
   max-width: 300px;
