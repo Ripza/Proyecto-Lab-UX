@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 require("./style.scss");
 
+
+
 /*
 FontAwesome icons
 */
@@ -21,11 +23,13 @@ Vue.use(VueResource);
 import IndexNoLogin from './IndexNoLogin.vue';
 import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
+import AboutUs from './AboutUs.vue';
 
 const routes = [
   { path: '/indexNoLogin', alias: '/', component: IndexNoLogin},
   { path: '/login', component: Login},
-  { path: '/indexLogin', component: IndexLogin}
+  { path: '/indexLogin', component: IndexLogin},
+  { path: '/aboutUs', component: AboutUs},
 ]
 
 // Create the router instance and pass the `routes` option
