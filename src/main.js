@@ -55,11 +55,10 @@ const routes = [
   { path: '/newscultura', component: NewsCultura},
   { path: '/newsdeportes', component: NewsDeportes},
   { path: '/newssalud', component: NewsSalud},
-
   { path: '/newsAcademico', component: NewsAcademico},
   { path: '/newsCiencia', component: NewsCiencia},
   { path: '/newsEducacion', component: NewsEducacion},
-  { path: '/newsEconomia', component: NewsEconomia}
+  { path: '/newsEconomia', component: NewsEconomia},
   { path: '/events', component: Events},
   { path: '/event-detail', component: EventDetail},
   { path: '/new-detail', component: NewDetail}
