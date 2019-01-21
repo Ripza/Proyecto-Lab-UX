@@ -17,7 +17,6 @@
             <div class="date">23/01/2019 a las 17:00</div>
             <div class="place">Centro Cultural Pedro Aguirre Cerda. Paseo Grohnert 5510. Santiago, Chile</div>
             <div class="button">
-              <a href="/#/indexLogin" class="btn btn-outline-secondary" style="float: right;"> <font-awesome-icon icon="info-circle"/> Ver más</a>
             </div>
           </div>
         </div>
@@ -28,7 +27,6 @@
             <div class="date">25/01/2019 a las 10:00</div>
             <div class="place">Sala 251, Edificio Citecamp de la Universidad de Santiago de Chile. Las Sophoras 175, Estación Central.</div>
             <div class="button">
-              <a href="/#/indexLogin" class="btn btn-outline-secondary" style="float: right;"> <font-awesome-icon icon="info-circle"/> Ver más</a>
             </div>
           </div>
         </div>
@@ -39,7 +37,6 @@
             <div class="date">28/01/2019 a las 17:00</div>
             <div class="place">Sala Estación / Edificio VIME. Av. Las Sophoras 175. Estación Central, Santiago, Chile.</div>
             <div class="button">
-              <a href="/#/indexLogin" class="btn btn-outline-secondary" style="float: right;"> <font-awesome-icon icon="info-circle"/> Ver más</a>
             </div>
           </div>
         </div>
@@ -50,7 +47,6 @@
             <div class="date">30/01/2019 a las 14:00</div>
             <div class="place">Universidad Autónoma. Av.Pedro de Valdivia 641, Providencia.</div>
             <div class="button">
-              <a href="/#/indexLogin" class="btn btn-outline-secondary" style="float: right;"> <font-awesome-icon icon="info-circle"/> Ver más</a>
             </div>
           </div>
         </div>
@@ -61,7 +57,6 @@
             <div class="date">31/01/2019 a las 10:00</div>
             <div class="place">Museo de Arte Contemporáneo</div>
             <div class="button">
-              <a href="/#/indexLogin" class="btn btn-outline-secondary" style="float: right;"> <font-awesome-icon icon="info-circle"/> Ver más</a>
             </div>
           </div>
         </div>
@@ -72,7 +67,6 @@
             <div class="date">31/01/2019 a las 15:00</div>
             <div class="place">Auditorio C del edificio Ceni VIME – USACH</div>
             <div class="button">
-              <a href="/#/indexLogin" class="btn btn-outline-secondary" style="float: right;"> <font-awesome-icon icon="info-circle"/> Ver más</a>
             </div>
           </div>
         </div>
