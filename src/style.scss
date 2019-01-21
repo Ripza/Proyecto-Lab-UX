@@ -13,7 +13,9 @@ html {
 
 .holder{
   min-height: 100%;
-  position:relative;
+  position: relative;
+  /*max-width: 1200px;*/
+  margin: auto;
 }
 
 *,
@@ -98,6 +100,18 @@ header{
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      color: white;
+      text-decoration: none !important;
+
+      &:hover{
+        color: initial;
+      }
+
+      &:after{
+        content: none !important;
+      }
+
       .login-image{
         font-size: 200%;
       }
@@ -422,4 +436,23 @@ footer {
 
 .local-navigation{
   background-color: blue;
+}
+
+
+
+
+.btn-umovil{
+  background: #ffffff;
+  color: black !important;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none !important;
+  border-color: blue;
+
+  &:hover, &:focus{
+    background: #023c87; 
+  }
+  &:active{
+    background: #012554;
+  }
 }

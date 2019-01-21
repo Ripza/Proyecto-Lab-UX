@@ -9,10 +9,10 @@
         </div>
       </div>
       <nav>
-        <div class="login-button">
+        <a href="#/login" class="login-button">
           <font-awesome-icon class="login-image" icon="sign-in-alt"/>
-          <a href="#/login">Iniciar Sesión</a>
-        </div>
+          <p>Iniciar Sesión</p>
+        </a>
       </nav>
     </header>
 
