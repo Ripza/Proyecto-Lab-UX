@@ -7,7 +7,7 @@
 
     <div class="event-title">
       <h5>Charlas y Conferencias</h5>
-      <h1><strong>Primera Jornada de Comunicación Pública </strong></h1>
+      <h1><strong>Primera Jornada de Comunicación Pública</strong></h1>
     </div>
     <div class="event-description"> 
       <h6 class="font-weight-light">VIME USACH</h6>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="event-image"> 
-        <img src="../img/evento-8.jpg"></img>
+        <img src="../img/evento-1.jpg"></img>
     </div>
 
     <div class="event-details"> 
