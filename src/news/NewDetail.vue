@@ -37,7 +37,7 @@
 
   </div>
 
-    <footer>
+    <footer class="footer-news">
       <FooterContent></FooterContent>
     </footer>
     
@@ -134,10 +134,7 @@
   grid-row-start: 5;
   grid-row-end: 6;
 }
-footer{
-  margin-left: 0;
-  margin-right: 0%;
-}
+
 /*
 h1, h2, h3, h4, h5, h6{
   color: #ea7600;

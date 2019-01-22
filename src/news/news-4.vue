@@ -2,13 +2,13 @@
 <div class="body-container">
   <div class="news-nav" style="margin-left: 2.5%; margin-right: 2.5%; text-align: center;">
     <div class="items-2">
-      <div><a href="/#/newscomunidad">Comunidad Universitaria</a></div>
-      <div><a href="/#/newsacademico" style="color: orange;">Académico</a></div>
+      <div><a href="/#/newscomunidad" style="color: orange;">Comunidad Universitaria</a></div>
+      <div><a href="/#/newsacademico">Académico</a></div>
     </div>
     <div class="items-3">
-      <div><a href="/#/newseducacion">Educación</a></div>
-      <div><a href="/#/newsciencia">Ciencia y Tecnología</a></div>
-      <div><a href="/#/newseconomia">Economía</a></div>
+      <div><a href="/#/newssalud">Salud</a></div>
+      <div><a href="/#/newsdeportes" style="color: orange;">Deportes</a></div>
+      <div><a href="/#/newscultura">Cultura</a></div>
     </div>
   </div>
   <div class="back">
@@ -41,7 +41,7 @@
 
   </div>
 
-    <footer>
+    <footer class="footer-news">
       <FooterContent></FooterContent>
     </footer>
     
@@ -138,10 +138,7 @@
   grid-row-start: 5;
   grid-row-end: 6;
 }
-footer{
-  margin-left: 0;
-  margin-right: 0%;
-}
+
 /*
 h1, h2, h3, h4, h5, h6{
   color: #ea7600;

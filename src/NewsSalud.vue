@@ -27,7 +27,7 @@
       <div class="salud-1"></div>
       <div class="text-side">
         <div class="category">Salud</div>
-        <div class="title">Investigación del Plantel revela positivo efecto de la dieta mediterránea en escolares chilenos</div>
+        <div class="title"><a href="/#/news1">Investigación del Plantel revela positivo efecto de la dieta mediterránea en escolares chilenos</a></div>
         <div class="date">16/03/2018</div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="salud-2"></div>
       <div class="text-side">
         <div class="category">Salud</div>
-        <div class="title">Universidad propone nuevo modelo predictivo para medir contaminación</div>
+        <div class="title"><a href="/#/news2">Universidad propone nuevo modelo predictivo para medir contaminación</a></div>
         <div class="date">25/04/2017</div>
       </div>
     </div>

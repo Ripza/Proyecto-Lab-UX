@@ -27,7 +27,7 @@
       <div class="educacion-1"></div>
       <div class="text-side">
         <div class="category">Educación</div>
-        <div class="title">Rector y fallo del TC: “Intereses de unos pocos no pueden imponerse sobre el bien común”</div>
+        <div class="title"><a href="/#/news7">Rector y fallo del TC: “Intereses de unos pocos no pueden imponerse sobre el bien común”</a></div>
         <div class="date">29/03/2018</div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="educacion-2"></div>
       <div class="text-side">
         <div class="category">Educación</div>
-        <div class="title">No obtuve gratuidad y quiero apelar, ¿cómo hacerlo?</div>
+        <div class="title"><a href="/#/news8">No obtuve gratuidad y quiero apelar, ¿cómo hacerlo?</a></div>
         <div class="date">21/03/2018</div>
       </div>
     </div>
