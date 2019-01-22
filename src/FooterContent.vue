@@ -18,7 +18,7 @@
     		<h5>Acerca de</h5>
     	</a>
     	<a href="#/aboutUs" class="login-button" style="font-weight: bold;">
-    		<h5>Sobre Nosotros</h5>
+    		<h5>Sobre nosotros</h5>
     	</a>
     	<a href="#/Contacto" class="login-button" style="font-weight: bold;">
     		<h5>Contacto</h5>
