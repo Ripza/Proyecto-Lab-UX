@@ -23,7 +23,7 @@
       <router-view></router-view>
     </main>
 
-    <!--<footer>
+    <footer>
       <h2>Eventos</h2>
       <div class="footer-details">
           <h4>Entretenimiento</h4>
@@ -44,7 +44,7 @@
           Copyright 2018 CompuMundoHiperMegaRed. Todos los derechos reservados
           <br> Portal Desarrollado por estudiantes para estudiantes
       </div>
-    </footer>-->
+    </footer>
   </div>
 </template>
 

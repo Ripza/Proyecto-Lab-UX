@@ -24,12 +24,16 @@ import IndexNoLogin from './IndexNoLogin.vue';
 import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
 import AboutUs from './AboutUs.vue';
+import AcercaDe from './AcercaDe.vue';
+import Contact from './Contacto.vue';
 
 const routes = [
   { path: '/indexNoLogin', alias: '/', component: IndexNoLogin},
   { path: '/login', component: Login},
   { path: '/indexLogin', component: IndexLogin},
   { path: '/aboutUs', component: AboutUs},
+  { path: '/Contacto', component: AcercaDe},
+  { path: '/AcerdaDe', component: Contact},
 ]
 
 // Create the router instance and pass the `routes` option
