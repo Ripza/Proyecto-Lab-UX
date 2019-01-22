@@ -3,7 +3,7 @@
     <header>
       <div class="branding">
         <img src="./img/logo.png"/>
-        <a style="display:block" href="#/indexNoLogin">
+        <a style="display:block" href="#/">
           <div class="branding-name">
             <span class="title">USACH Móvil</span>
             <span class="subtitle">Portal Eventos & Noticias</span>
