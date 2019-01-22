@@ -14,7 +14,7 @@
         <br>
       </div>
       <div class="tilulo2">
-        ¿Donde encontrarnos?  
+        ¿Dónde encontrarnos?  
         <br>
         <br>
       </div>

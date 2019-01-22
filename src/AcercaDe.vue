@@ -3,12 +3,12 @@
     <div class="about-us">
       <div class="titulo">
         <br>
-        Acerca de Nosotros
+        Sobre nosotros
         <br>
         <br>
       </div>
       <div class="descripcion">
-        Somos un equipo de trabajo conformado por estudiantes de Ingenieria en ejecución en Computación e Informatica de la Universidad de Santiago de Chile, en donde se desarrolla la presente plataforma como trabajo para el curso impartido de "Desarrollo Front-end Y Diseño UX"
+        Somos un equipo de trabajo conformado por estudiantes de Ingeniería de Ejecución en Computación e Informatica de la Universidad de Santiago de Chile, en donde se desarrolla la presente plataforma como trabajo para el curso "Desarrollo Frontend y Diseño UX"
         <br>
         <br>
         <br>
