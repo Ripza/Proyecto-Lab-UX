@@ -10,6 +10,9 @@
           </div>
         </a>
       </div>
+      <div class="login-button">
+        <a href='#/aboutUs'>Acerca de Nosotros</a>
+      </div>
       <nav>
         <a href="#/login" class="login-button">
           <font-awesome-icon class="login-image" icon="sign-in-alt"/>
@@ -50,7 +53,5 @@
 </template>
 
 <script>
-export default {
 
-}
 </script>

@@ -862,7 +862,7 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: bold;
     }
   }
@@ -931,5 +931,31 @@ footer {
         font-size: 1em;
         font-weight: bold;
     }
+  }
+}
+
+
+.about-us{
+  height: 500px;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  img{
+      width: 35%;
+      display: center;
+    }
+  .titulo{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .descripcion{
+
+  }
+  .tilulo2{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .integrantes{
+
   }
 }

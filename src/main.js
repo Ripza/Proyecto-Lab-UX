@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 require("./style.scss");
 
+
+
 /*
 FontAwesome icons
 */
@@ -39,6 +41,7 @@ import NewsComunidad from './NewsComunidad.vue';
 import NewsCultura from './NewsCultura.vue';
 import NewsDeportes from './NewsDeportes.vue';
 import NewsSalud from './NewsSalud.vue';
+import AboutUs from './AboutUs.vue';
 
 import NewsAcademico from './NewsAcademico.vue';
 import NewsCiencia from './NewsCiencia.vue';
@@ -62,6 +65,8 @@ const routes = [
   { path: '/events', component: Events},
   { path: '/event-detail', component: EventDetail},
   { path: '/new-detail', component: NewDetail}
+  { path: '/indexLogin', component: IndexLogin},
+  { path: '/aboutUs', component: AboutUs},
 ]
 
 // Create the router instance and pass the `routes` option
