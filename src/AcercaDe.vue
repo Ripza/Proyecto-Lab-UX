@@ -3,18 +3,18 @@
     <div class="about-us">
       <div class="titulo">
         <br>
-        Plataforma de Eventos e Informaciones USACH 
+        Acerca de Nosotros
         <br>
         <br>
       </div>
       <div class="descripcion">
-        Portal de Eventos y Noticias USACH Móvil, que nace de la necesidad de proporcionar a las personas de la comunidad universitaria de la Universidad de Santiago de Chile un portal de eventos y noticias personalizado para recibir las noticias de mayor interes personal.
+        Somos un equipo de trabajo conformado por estudiantes de Ingenieria en ejecución en Computación e Informatica de la Universidad de Santiago de Chile, en donde se desarrolla la presente plataforma como trabajo para el curso impartido de "Desarrollo Front-end Y Diseño UX"
         <br>
         <br>
         <br>
       </div>
       <div class="tilulo2">
-        Equipo de Desarrollo  
+        Miembros Actuales
         <br>
         <br>
       </div>

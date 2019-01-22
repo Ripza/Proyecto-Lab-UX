@@ -23,8 +23,8 @@ Vue.use(VueResource);
 import IndexNoLogin from './IndexNoLogin.vue';
 import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
-import AboutUs from './AboutUs.vue';
-import AcercaDe from './AcercaDe.vue';
+import AcercaDe from './AboutUs.vue';
+import AboutUs from './AcercaDe.vue';
 import Contact from './Contacto.vue';
 
 const routes = [
