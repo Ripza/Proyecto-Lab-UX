@@ -32,6 +32,8 @@ import IndexNoLogin from './IndexNoLogin.vue';
 import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
 import Events from './Events.vue';
+import EventDetail from './EventDetail.vue';
+import NewDetail from './NewDetail.vue';
 import News from './News.vue';
 import NewsComunidad from './NewsComunidad.vue';
 import NewsCultura from './NewsCultura.vue';
@@ -53,11 +55,13 @@ const routes = [
   { path: '/newscultura', component: NewsCultura},
   { path: '/newsdeportes', component: NewsDeportes},
   { path: '/newssalud', component: NewsSalud},
-
   { path: '/newsAcademico', component: NewsAcademico},
   { path: '/newsCiencia', component: NewsCiencia},
   { path: '/newsEducacion', component: NewsEducacion},
-  { path: '/newsEconomia', component: NewsEconomia}
+  { path: '/newsEconomia', component: NewsEconomia},
+  { path: '/events', component: Events},
+  { path: '/event-detail', component: EventDetail},
+  { path: '/new-detail', component: NewDetail}
 ]
 
 // Create the router instance and pass the `routes` option
