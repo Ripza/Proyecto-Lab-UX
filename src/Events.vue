@@ -13,7 +13,8 @@
         <div class="event-item">
           <div class="img-container-8"></div>
           <div class="text-side">
-            <div class="title">Orquesta Clásica U. de Santiago en Pedro Aguirre Cerda</div>
+            <div class="text">Música</div>
+            <div class="title"><a href="/#/event1">Orquesta Clásica U. de Santiago en Pedro Aguirre Cerda</a></div>
             <div class="date">23/01/2019 a las 17:00</div>
             <div class="place">Centro Cultural Pedro Aguirre Cerda. Paseo Grohnert 5510. Santiago, Chile</div>
             <div class="button">
@@ -23,7 +24,8 @@
         <div class="event-item">
           <div class="img-container-4"></div>
           <div class="text-side">
-            <div class="title">VI Panel de Educación No Sexista</div>
+            <div class="text">Ferias y Festivales</div>
+            <div class="title"><a href="/#/event2">VI Panel de Educación No Sexista</a></div>
             <div class="date">25/01/2019 a las 10:00</div>
             <div class="place">Sala 251, Edificio Citecamp de la Universidad de Santiago de Chile. Las Sophoras 175, Estación Central.</div>
             <div class="button">
@@ -33,7 +35,8 @@
         <div class="event-item">
           <div class="img-container-5"></div>
           <div class="text-side">
-            <div class="title">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</div>
+            <div class="text">Cine</div>
+            <div class="title"><a href="/#/event3">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</a></div>
             <div class="date">28/01/2019 a las 17:00</div>
             <div class="place">Sala Estación / Edificio VIME. Av. Las Sophoras 175. Estación Central, Santiago, Chile.</div>
             <div class="button">
@@ -43,7 +46,8 @@
         <div class="event-item">
           <div class="img-container-6"></div>
           <div class="text-side">
-            <div class="title">IIeX Latam 2018</div>
+            <div class="text">Charlas y Conferencias</div>
+            <div class="title"><a href="/#/event4">IIeX Latam 2018</a></div>
             <div class="date">30/01/2019 a las 14:00</div>
             <div class="place">Universidad Autónoma. Av.Pedro de Valdivia 641, Providencia.</div>
             <div class="button">
@@ -53,7 +57,8 @@
         <div class="event-item">
           <div class="img-container-7"></div>
           <div class="text-side">
-            <div class="title">Exhibición “Matta. Obra Gráfica"</div>
+            <div class="text">Pinturas y Exposiciones</div>
+            <div class="title"><a href="/#/event5">Exhibición “Matta. Obra Gráfica"</a></div>
             <div class="date">31/01/2019 a las 10:00</div>
             <div class="place">Museo de Arte Contemporáneo</div>
             <div class="button">
@@ -63,7 +68,8 @@
         <div class="event-item">
           <div class="img-container-1"></div>
           <div class="text-side">
-            <div class="title">Primera Jornada de Comunicación Pública</div>
+            <div class="text">Charlas y Conferencias</div>
+            <div class="title"><a href="/#/event6">Primera Jornada de Comunicación Pública</a></div>
             <div class="date">31/01/2019 a las 15:00</div>
             <div class="place">Auditorio C del edificio Ceni VIME – USACH</div>
             <div class="button">

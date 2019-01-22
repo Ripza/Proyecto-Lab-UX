@@ -34,7 +34,7 @@ import IndexNoLogin from './IndexNoLogin.vue';
 import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
 import Events from './Events.vue';
-import EventDetail from './EventDetail.vue';
+import EventDetail from './events/EventDetail.vue';
 import NewDetail from './news/NewDetail.vue';
 import News from './News.vue';
 import NewsComunidad from './NewsComunidad.vue';
@@ -60,6 +60,13 @@ import News9 from './news/news-9.vue';
 import News10 from './news/news-10.vue';
 import News11 from './news/news-11.vue';
 import News12 from './news/news-12.vue';
+
+import Event1 from './events/event-1.vue';
+import Event2 from './events/event-2.vue';
+import Event3 from './events/event-3.vue';
+import Event4 from './events/event-4.vue';
+import Event5 from './events/event-5.vue';
+import Event6 from './events/event-6.vue';
 
 const routes = [
   { path: '/indexNoLogin', alias: '/', component: IndexNoLogin},
@@ -92,7 +99,14 @@ const routes = [
   { path: '/news9', component: News9},
   { path: '/news10', component: News10},
   { path: '/news11', component: News11},
-  { path: '/news12', component: News12}
+  { path: '/news12', component: News12},
+
+  { path: '/event1', component: Event1},
+  { path: '/event2', component: Event2},
+  { path: '/event3', component: Event3},
+  { path: '/event4', component: Event4},
+  { path: '/event5', component: Event5},
+  { path: '/event6', component: Event6}
 ]
 
 // Create the router instance and pass the `routes` option

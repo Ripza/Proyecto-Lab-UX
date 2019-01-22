@@ -1,7 +1,7 @@
 <template>
 <div class="body-container">
   <div class="back">
-    <a href="#" class="btn btn-outline-secondary">🡐 Volver a eventos</a>
+    <a href="#" class="btn btn-outline-secondary">Volver a eventos</a>
   </div>
   <div class="event-container">
 
@@ -14,7 +14,7 @@
     </div>
 
     <div class="event-image"> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tile_4%2C4.svg/2000px-Tile_4%2C4.svg.png"></img>
+        <img src="../img/evento-8.jpg"></img>
     </div>
 
     <div class="event-details"> 
@@ -22,14 +22,10 @@
         <p>Lugar VIME</p>
       </div>
       <div class="event-umovil"> 
-        <img class="event-map" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tile_4%2C4.svg/2000px-Tile_4%2C4.svg.png"></img>
+        <img class="event-map" src="../img/mapa.png"></img>
         <a href="#" class="btn-umovil">Cómo llegar (Usach Movil)</a>
       </div>
 
-    </div>
-
-    <div class="new-bajada">
-      Bajada de noticia
     </div>
     <div class="event-body"> 
 
@@ -37,6 +33,10 @@
     </div>
 
   </div>
+
+  <footer class="footer-news">
+    <FooterContent></FooterContent>
+  </footer>
     
 </div>
 </template>
@@ -84,6 +84,7 @@
   width: auto;
   max-height: 600px;
   margin-top: 5px;
+  max-width: 600px;
 }
 .event-details {
   grid-column-start: 7;
@@ -161,6 +162,8 @@ footer {
 </style>
 
 <script>
+import FooterContent from '../FooterContent.vue';
+
 export default{
   data(){
     return{
@@ -169,6 +172,9 @@ export default{
   },
   mounted:function(){
     console.log('Index.vue')
+  },
+    components:{
+    FooterContent
   }
 }
 </script>

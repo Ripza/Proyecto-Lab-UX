@@ -328,7 +328,7 @@ footer {
     }
     .text-side{
       display: grid;
-      grid-template-rows: 1fr auto auto auto;
+      grid-template-rows: auto 1fr auto auto auto;
       .title{
         text-align: start;
         padding-left: 0.5em;
@@ -349,6 +349,7 @@ footer {
       .text{
         text-align: start;
         padding-left: 0.5em;
+        font-size: 1.2em;
       }
       .button{
         padding: 0.5em;
@@ -697,7 +698,6 @@ footer {
     padding-left: 1em;
     font-size: 1.5em;
     font-weight: bold;
-    color: darken($third-color, 35%)
   }
   .preferences{
     display: grid;
@@ -706,7 +706,6 @@ footer {
     justify-content: space-between;
     padding-left: 1em;
     font-weight: bold;
-    color: darken($third-color, 35%)
   }
   .events{
     background-color: goldenrod;
@@ -720,6 +719,12 @@ footer {
     grid-column-end: 4; 
     grid-row-start: 1;
     grid-row-end: 4;
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
+    }
   }
   .item{
     background-color: red;
@@ -729,7 +734,7 @@ footer {
   }
   .evento-login-1{
     display: grid;
-    background-image: url('./img/evento-2.jpg');
+    background-image: url('./img/evento-8.jpg');
     background-position: fixed;
     background-size: cover;
     width: 100%;
@@ -748,10 +753,16 @@ footer {
         font-size: 1em;
         font-weight: bold;
     }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
+    }
   }
   .evento-login-2{
     display: grid;
-    background-image: url('./img/evento-3.jpg');
+    background-image: url('./img/evento-5.jpg');
     background-position: fixed;
     background-size: cover;
     width: 100%;
@@ -769,6 +780,12 @@ footer {
         padding-left: 0.5em;
         font-size: 1em;
         font-weight: bold;
+    }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
     }
   }
   .evento-login-3{
@@ -792,6 +809,12 @@ footer {
         font-size: 1em;
         font-weight: bold;
     }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
+    }
   }
 }
 
@@ -812,7 +835,6 @@ footer {
     padding-left: 1em;
     font-size: 1.5em;
     font-weight: bold;
-    color: darken($third-color, 35%)
   }
   .preferences{
     display: grid;
@@ -821,7 +843,6 @@ footer {
     justify-content: space-between;
     padding-left: 1em;
     font-weight: bold;
-    color: darken($third-color, 35%)
   }
   .events{
     background-color: goldenrod;
@@ -863,6 +884,12 @@ footer {
         font-size: 1em;
         font-weight: bold;
     }
+    a {
+        color: white;
+        padding-left: 0.5em;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
   }
   .news-login-1{
     display: grid;
@@ -884,6 +911,12 @@ footer {
         padding-left: 0.5em;
         font-size: 1em;
         font-weight: bold;
+    }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
     }
   }
   .news-login-2{
@@ -907,6 +940,12 @@ footer {
         font-size: 1em;
         font-weight: bold;
     }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
+    }
   }
   .news-login-3{
     display: grid;
@@ -928,6 +967,12 @@ footer {
         padding-left: 0.5em;
         font-size: 1em;
         font-weight: bold;
+    }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
+      font-weight: bold;
     }
   }
 }
@@ -959,7 +1004,10 @@ footer {
 }
 
 a {
+  /*
   color: darken($third-color, 35%);
+  */
+  color: $secondary-color;
 }
 
 .footer-news{
