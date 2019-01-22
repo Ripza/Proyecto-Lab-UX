@@ -23,12 +23,6 @@
         <a href="#/AcerdaDe" class="login-button" style="font-weight: bold;">
           <p>Acerca de</p>
         </a>
-        <a href="#/aboutUs" class="login-button" style="font-weight: bold;">
-          <p>Sobre nosotros</p>
-        </a>
-        <a href="#/Contacto" class="login-button" style="font-weight: bold;">
-          <p>Contacto</p>
-        </a>
         <a href="#/login" class="login-button" style="font-weight: bold;">
           <font-awesome-icon class="login-image" icon="sign-in-alt"/>
           <p>Iniciar Sesión</p>
