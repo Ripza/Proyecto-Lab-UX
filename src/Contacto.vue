@@ -1,7 +1,6 @@
 <template>
   <div class="center">
     <div class="about-us">
-      <img src="./img/logo.png"/>
       <div class="titulo">
         <br>
         ¿Como contactarnos?
