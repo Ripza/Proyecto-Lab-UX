@@ -42,6 +42,9 @@ import NewsCultura from './NewsCultura.vue';
 import NewsDeportes from './NewsDeportes.vue';
 import NewsSalud from './NewsSalud.vue';
 import AboutUs from './AboutUs.vue';
+import AcercaDe from './AboutUs.vue';
+import AboutUs from './AcercaDe.vue';
+import Contact from './Contacto.vue';
 
 import NewsAcademico from './NewsAcademico.vue';
 import NewsCiencia from './NewsCiencia.vue';
@@ -87,6 +90,8 @@ const routes = [
   { path: '/new-detail', component: NewDetail},
   { path: '/indexLogin', component: IndexLogin},
   { path: '/aboutUs', component: AboutUs},
+  { path: '/Contacto', component: Contact},
+  { path: '/AcerdaDe', component: AcercaDe},
 
   { path: '/news1', component: News1},
   { path: '/news2', component: News2},
