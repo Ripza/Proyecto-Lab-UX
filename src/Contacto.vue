@@ -3,7 +3,7 @@
     <div class="about-us">
       <div class="titulo">
         <br>
-        ¿Como contactarnos?
+        ¿Cómo contactarnos?
         <br>
         <br>
       </div>
@@ -24,6 +24,10 @@
       </div>
 
     </div>
+
+      <footer>
+        <FooterContent></FooterContent>
+      </footer>
     
   </div>
 </template>
@@ -34,5 +38,19 @@
 </style>
 
 <script>
+import FooterContent from './FooterContent.vue';
 
+export default{
+  data(){
+    return{
+      title:'Index'
+    }
+  },
+  mounted:function(){
+    console.log('Index.vue')
+  },
+    components:{
+    FooterContent
+  }
+}
 </script>

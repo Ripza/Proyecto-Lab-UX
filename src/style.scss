@@ -76,6 +76,7 @@ header{
     }
   }
   nav{
+    display: flex;
     a{
       font-size: 1em;
       display: inline-block;
@@ -124,7 +125,6 @@ header{
   text-align: center;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  height: 100%;
 }
 
 .two-columns{
@@ -149,6 +149,7 @@ footer {
   padding-top: 0.5em;
   margin-left: -2.6%;
   margin-right: -2.6%;
+  height: 500px;
 }
 
 /**
@@ -1013,4 +1014,5 @@ a {
 .footer-news{
   margin-left: 0;
   margin-right: 0%;
+  height: 500px;
 }

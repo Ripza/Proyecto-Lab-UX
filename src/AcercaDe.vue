@@ -19,12 +19,16 @@
         <br>
       </div>
       <div class="integrantes">
-        Sebastian Aguero <br>
-        Felipe Valenzuela <br>
-        Rene Zarate <br>
+        Sebastian Pinto-Agüero <br>
+        Felipe Valenzuela<br>
+        René Zárate <br>
       </div>
 
     </div>
+
+      <footer>
+        <FooterContent></FooterContent>
+      </footer>
     
   </div>
 </template>
@@ -35,5 +39,19 @@
 </style>
 
 <script>
+import FooterContent from './FooterContent.vue';
 
+export default{
+  data(){
+    return{
+      title:'Index'
+    }
+  },
+  mounted:function(){
+    console.log('Index.vue')
+  },
+    components:{
+    FooterContent
+  }
+}
 </script>
