@@ -35,7 +35,7 @@ import Login from './Login.vue';
 import IndexLogin from './IndexLogin.vue';
 import Events from './Events.vue';
 import EventDetail from './EventDetail.vue';
-import NewDetail from './NewDetail.vue';
+import NewDetail from './news/NewDetail.vue';
 import News from './News.vue';
 import NewsComunidad from './NewsComunidad.vue';
 import NewsCultura from './NewsCultura.vue';
@@ -47,6 +47,19 @@ import NewsAcademico from './NewsAcademico.vue';
 import NewsCiencia from './NewsCiencia.vue';
 import NewsEducacion from './NewsEducacion.vue';
 import NewsEconomia from './NewsEconomia.vue';
+
+import News1 from './news/news-1.vue';
+import News2 from './news/news-2.vue';
+import News3 from './news/news-3.vue';
+import News4 from './news/news-4.vue';
+import News5 from './news/news-5.vue';
+import News6 from './news/news-6.vue';
+import News7 from './news/news-7.vue';
+import News8 from './news/news-8.vue';
+import News9 from './news/news-9.vue';
+import News10 from './news/news-10.vue';
+import News11 from './news/news-11.vue';
+import News12 from './news/news-12.vue';
 
 const routes = [
   { path: '/indexNoLogin', alias: '/', component: IndexNoLogin},
@@ -64,9 +77,22 @@ const routes = [
   { path: '/newsEconomia', component: NewsEconomia},
   { path: '/events', component: Events},
   { path: '/event-detail', component: EventDetail},
-  { path: '/new-detail', component: NewDetail}
+  { path: '/new-detail', component: NewDetail},
   { path: '/indexLogin', component: IndexLogin},
   { path: '/aboutUs', component: AboutUs},
+
+  { path: '/news1', component: News1},
+  { path: '/news2', component: News2},
+  { path: '/news3', component: News3},
+  { path: '/news4', component: News4},
+  { path: '/news5', component: News5},
+  { path: '/news6', component: News6},
+  { path: '/news7', component: News7},
+  { path: '/news8', component: News8},
+  { path: '/news9', component: News9},
+  { path: '/news10', component: News10},
+  { path: '/news11', component: News11},
+  { path: '/news12', component: News12}
 ]
 
 // Create the router instance and pass the `routes` option

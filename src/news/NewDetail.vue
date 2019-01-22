@@ -1,7 +1,18 @@
 <template>
 <div class="body-container">
+  <div class="news-nav" style="margin-left: 2.5%; margin-right: 2.5%; text-align: center;">
+    <div class="items-2">
+      <div><a href="/#/newscomunidad">Comunidad Universitaria</a></div>
+      <div><a href="/#/newsacademico" style="color: orange;">Académico</a></div>
+    </div>
+    <div class="items-3">
+      <div><a href="/#/newseducacion">Educación</a></div>
+      <div><a href="/#/newsciencia">Ciencia y Tecnología</a></div>
+      <div><a href="/#/newseconomia">Economía</a></div>
+    </div>
+  </div>
   <div class="back">
-    <a href="#" class="btn btn-outline-secondary">🡐 Volver a noticias</a>
+    <a href="#" class="btn btn-outline-secondary">Volver a noticias</a>
   </div>
   <div class="new-container">
 
@@ -13,8 +24,8 @@
       <h6 class="font-weight-light">25 Enero 2019</h6>
     </div>
 
-    <div class="new-image"> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tile_4%2C4.svg/2000px-Tile_4%2C4.svg.png"></img>
+    <div class="new-image">
+      <img src="../img/news/salud-2.jpg"></img>
     </div>
     <div class="new-bajada">
       Bajada de noticia
@@ -25,6 +36,10 @@
     </div>
 
   </div>
+
+    <footer>
+      <FooterContent></FooterContent>
+    </footer>
     
 </div>
 </template>
@@ -109,7 +124,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
   color: #ffffff;
-
+  font-weight: bold;
 }
 
 .new-body {
@@ -119,8 +134,9 @@
   grid-row-start: 5;
   grid-row-end: 6;
 }
-footer {
-  margin-top: 0em;
+footer{
+  margin-left: 0;
+  margin-right: 0%;
 }
 /*
 h1, h2, h3, h4, h5, h6{
@@ -137,6 +153,9 @@ h1, h2, h3, h4, h5, h6{
 </style>
 
 <script>
+import FooterContent from '../FooterContent.vue';
+
+
 export default{
   data(){
     return{
@@ -145,6 +164,9 @@ export default{
   },
   mounted:function(){
     console.log('Index.vue')
+  },
+    components:{
+    FooterContent
   }
 }
 </script>
