@@ -13,26 +13,28 @@
     <div class="events">
       <div class="first">
         <div class="img-container">
-          <div class="text"><a href="/#/event6">Primera Jornada de Comunicación Pública</a><br>31/01/2019 - 15:00</div>
+          <div class="text"><p class="category">Charlas y Conferencias</p><a href="/#/event6">Primera Jornada de Comunicación Pública</a><br>31/01/2019 - 15:00</div>
         </div>
       </div>
       <div class="item">
         <div class="evento-login-1">
-          <div class="text"><a href="/#/event1">Orquesta Clásica U. de Santiago en Pedro Aguirre Cerda</a><br>23/01/2019 - 17:00</div>
+          <div class="text"><p class="category">Música</p><a href="/#/event1">Orquesta Clásica U. de Santiago en Pedro Aguirre Cerda</a><br>23/01/2019 - 17:00</div>
         </div>
       </div>
       <div class="item">
         <div class="evento-login-2">
-          <div class="text"><a href="/#/event3">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</a><br>28/01/2019 - 17:00</div>
+          <div class="text"><p class="category">Cine</p><a href="/#/event3">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</a><br>28/01/2019 - 17:00</div>
         </div>
       </div>
       <div class="item">
         <div class="evento-login-3">
-          <div class="text"><a href="/#/event2">VI Panel de Educación No Sexista</a><br>25/01/2019 - 10:00</div>
+          <div class="text"><p class="category">Ferias y Festivales</p><a href="/#/event2">VI Panel de Educación No Sexista</a><br>25/01/2019 - 10:00</div>
         </div>
       </div>
     </div>
   </div>
+
+  <br>
 
   <div class="news-login">
     <div>
@@ -47,22 +49,22 @@
     <div class="events">
       <div class="first">
         <div class="news-login-first">
-          <div class="text"><a href="/#/news4">Rugby femenino de la Usach se coronó campeón del torneo de clausura</a></div>
+          <div class="text"><p class="category">Deportes</p><a href="/#/news4">Rugby femenino de la Usach se coronó campeón del torneo de clausura</a></div>
         </div>
       </div>
       <div class="item">
         <div class="news-login-1">
-          <div class="text"><a href="/#/news6">Hay interesantes premios: participa en el concurso de fotografía sobre Derechos Humanos</a></div>
+          <div class="text"><p class="category">Cultura</p><a href="/#/news6">Hay interesantes premios: participa en el concurso de fotografía sobre Derechos Humanos</a></div>
         </div>
       </div>
       <div class="item">
         <div class="news-login-2">
-          <div class="text"><a href="/#/news8">No obtuve gratuidad y quiero apelar, ¿cómo hacerlo?</a></div>
+          <div class="text"><p class="category">Educación</p><a href="/#/news8">No obtuve gratuidad y quiero apelar, ¿cómo hacerlo?</a></div>
         </div>
       </div>
       <div class="item">
         <div class="news-login-3">
-          <div class="text"><a href="/#/news9">Torneo de robótica en Planetario define a ganadores para competencia internacional</a></div>
+          <div class="text"><p class="category">Ciencia y Tecnología</p><a href="/#/news9">Torneo de robótica en Planetario define a ganadores para competencia internacional</a></div>
         </div>
       </div>
     </div>
