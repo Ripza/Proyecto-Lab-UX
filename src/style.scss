@@ -149,7 +149,24 @@ footer {
   padding-top: 0.5em;
   margin-left: -2.6%;
   margin-right: -2.6%;
-  height: 500px;
+  height: auto;
+  div{
+    grid-column: 1;
+  }
+  a{
+    color:white;
+  }
+  a:hover{
+    transition: color 0.5s ease;
+    color: #FFFF66;
+  }
+  h2{
+    font-size: 3em;
+    font-weight: bold;
+  }
+  h4{
+
+  }
 }
 
 /**
@@ -1004,7 +1021,7 @@ footer {
   }
 }
 
-a {
+a{
   /*
   color: darken($third-color, 35%);
   */
