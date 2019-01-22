@@ -8,7 +8,7 @@
   <div class="two-columns">
 
     <div>
-      <div class="title-date" style="text-align: start;">Eventos desde Martes, 22 de enero de 2019</div>
+      <div class="title-date" style="text-align: start; color: black;">Eventos desde Martes, 22 de enero de 2019</div>
       <div class="events-list">
         <div class="event-item">
           <div class="img-container-8"></div>
@@ -116,6 +116,11 @@
 </template>
 
 <style>
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
 
 </style>
 

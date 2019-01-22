@@ -10,10 +10,10 @@
     <div class="two-columns">
 
       <div class="events">
-        <div class="title title-container"><a href="/#/events">Eventos</a></div>
+        <div class="title title-container">Eventos</div>
           <div class="first">
             <div class="img-container">
-              <div class="text">Festival de Divulgación del Conocimiento "Cambalache"<br><br>12/12/2018 - 11:00</div>
+              <div class="text"><a href="/#/event4">IIeX Latam 2018</a><br><br>30/01/2019 - 14:00</div>
             </div>
           </div>
           <div class="second">
@@ -21,24 +21,24 @@
           </div>
           <div class="item-1">
             <div class="img-container"></div>
-            <div class="text">Charla: Modelos matemáticos para modelar colas y tiempos de espera: nuevas aproximaciones y análisis asintóticos<br><br>21/11/2018 - 10:00</div>
+            <div class="text"><a href="/#/event3">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</a><br><br>28/01/2019 - 17:00</div>
           </div>
           <div class="item-2">
             <div class="img-container"></div>
-            <div class="text">Concierto de Navidad Orquesta Clásica y Coro U. de Santiago<br><br>01/12/2018 - 12:00</div>
+            <div class="text"><a href="/#/event5">Exhibición “Matta. Obra Gráfica"</a><br><br>31/01/2019 - 10:00</div>
           </div>
         </div>
 
       <div class="news">
-        <div class="title title-container"><a href="/#/news">Noticias</a></div>
+        <div class="title title-container">Noticias</div>
         <div class="item-1">
           <div class="img-container">
-            <div class="text">Consideran insuficiente medida que prohíbe la publicación de rankings Simce</div>
+            <div class="text"><a href="/#/news3">Licaf va por el bicampeonato y Periodismo sueña con volver a primera</a></div>
           </div>
         </div>
         <div class="item-2">
           <div class="img-container">
-            <div class="text">Radio U. de Santiago inicia programación 2018-2019 con propuestas de su audiencia</div>
+            <div class="text"><a href="/#/news10">Investigan efectos de algas marinas para remover hidrocarburos del mar</a></div>
           </div>
         </div>
       </div>

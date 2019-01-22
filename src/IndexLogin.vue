@@ -13,7 +13,7 @@
     <div class="events">
       <div class="first">
         <div class="img-container">
-          <div class="text"><a href="/#/event6">Festival de Divulgación del Conocimiento "Cambalache"</a><br><br>12/12/2018 - 11:00</div>
+          <div class="text"><a href="/#/event6">Primera Jornada de Comunicación Pública</a><br><br>31/01/2019 - 15:00</div>
         </div>
       </div>
       <div class="item">
