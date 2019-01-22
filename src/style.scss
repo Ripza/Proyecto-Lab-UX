@@ -144,12 +144,13 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
+  margin-top: 2em;
   text-align: start;
-  padding-left: 0.5em;
-  padding-top: 0.5em;
+  padding-left: 2.5%;
+  padding-top: 2.5%;
   margin-left: -2.6%;
   margin-right: -2.6%;
-  height: auto;
+  min-height: 50vh;
   div{
     grid-column: 1;
   }
@@ -158,7 +159,7 @@ footer {
   }
   a:hover{
     transition: color 0.5s ease;
-    color: #FFFF66;
+    color: white;
   }
   h2{
     font-size: 3em;
@@ -166,6 +167,41 @@ footer {
   }
   h4{
 
+  }
+  .branding{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    img{
+      width: 20%;
+      display: center;
+    }
+    .branding-name{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: start;
+      padding-left: 0.5em;
+      .title{
+        font-weight: bold;
+        color:white;
+        font-size: 1.5rem;
+      }
+      .subtitle{
+        color:white;
+        font-size: 1rem;
+      }
+    }
+    span{
+      display: center;
+      color:white;
+    }
+    a { 
+      color: white;
+      &:hover{
+        color: white;
+      }
+  }
   }
 }
 
@@ -176,6 +212,7 @@ footer {
 .events{
   display: grid;
   grid-template-columns: repeat(5, 20%);
+  box-shadow: 0.5em 0.5em 0.5em $third-color;
   a { 
       color: white;
       &:hover{
@@ -231,25 +268,31 @@ footer {
   }
   .second{
     background-color: $third-color;
-    background: rgba(0,0,0,.5);
+    background: white;
     grid-column-start: 4;
     grid-column-end: 6; 
     grid-row-start: 2;
     grid-row-end: 5;
     border: 2px solid white;
-    color: white;
+    color: $main-color;
     text-align: start;
     padding-left: 0.5em;
+    a { 
+      color: $secondary-color;
+      &:hover{
+        color: lighten($secondary-color, 20%);
+      }
+  }
+
   }
   .item-1{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: $third-color;
     grid-column-start: 1;
-    grid-column-end: 6; 
+    grid-column-end: 6;
     min-height: 200px;
     border: 2px solid white;
     .img-container{
+      display: grid;
+      grid-template-rows: 50% 50%;
       background-image: url('./img/evento-5.jpg');
       background-position: fixed;
       background-size: cover;
@@ -257,28 +300,27 @@ footer {
       height: 100%;
     }
     .text{ 
-      position: relative; 
+      position: relative;
+      grid-row-start: 2;
+      grid-row-end: 3;
       width: 100%; 
       bottom: 0;
       background: rgba(0,0,0,.5);
       color: white;
-      grid-column-start: 2;
-      grid-column-end: 3;
       text-align: start;
       padding-left: 0.5em;
-      font-size: 1.5em;
+      font-size: 1.2em;
       font-weight: bold;
     }
   }
   .item-2{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: $third-color;
     grid-column-start: 1;
     grid-column-end: 6; 
     min-height: 200px;
     border: 2px solid white;
     .img-container{
+      display: grid;
+      grid-template-rows: 50% 50%;
       background-image: url('./img/evento-7.jpg');
       background-position: fixed;
       background-size: cover;
@@ -287,15 +329,52 @@ footer {
     }
     .text{ 
       position: relative; 
+      grid-row-start: 2;
+      grid-row-end: 3;
       width: 100%; 
       bottom: 0;
       background: rgba(0,0,0,.5);
       color: white;
-      grid-column-start: 2;
-      grid-column-end: 3;
       text-align: start;
       padding-left: 0.5em;
-      font-size: 1.5em;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding-bottom: 1em;
+    }
+  }
+
+  .item{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    min-height: 50%;
+    border: 5px solid white;
+  }
+  .evento-img-1{
+    display: grid;
+    background-image: url('./img/evento-8.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    a {
+      color: white;
+      padding-left: 0.5em;
+      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -435,6 +514,7 @@ footer {
 .news{
   display: grid;
   grid-template-rows: 2em calc(50% - 1em) calc(50% - 1em);
+  box-shadow: 0.5em 0.5em 0.5em $third-color;
   a { 
       color: white;
       &:hover{
@@ -784,8 +864,6 @@ footer {
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -813,13 +891,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -841,13 +917,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -869,13 +943,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -944,13 +1016,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.5em;
         font-weight: bold;
     }
     a {
         color: white;
-        padding-left: 0.5em;
-        font-size: 1.5em;
         font-weight: bold;
     }
   }
@@ -972,13 +1042,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -1000,13 +1068,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -1028,13 +1094,11 @@ footer {
         grid-row-end: 5;
         text-align: start;
         padding-left: 0.5em;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: bold;
     }
     a {
       color: white;
-      padding-left: 0.5em;
-      font-size: 1em;
       font-weight: bold;
     }
   }
@@ -1079,5 +1143,5 @@ a{
 .footer-news{
   margin-left: 0;
   margin-right: 0%;
-  height: 500px;
+  min-height: 50vh;
 }

@@ -13,22 +13,22 @@
     <div class="events">
       <div class="first">
         <div class="img-container">
-          <div class="text"><a href="/#/event6">Primera Jornada de Comunicación Pública</a><br><br>31/01/2019 - 15:00</div>
+          <div class="text"><a href="/#/event6">Primera Jornada de Comunicación Pública</a><br>31/01/2019 - 15:00</div>
         </div>
       </div>
       <div class="item">
         <div class="evento-login-1">
-          <div class="text"><a href="/#/event1">Orquesta Clásica U. de Santiago en Pedro Aguirre Cerda</a><br><br>23/01/2019 - 17:00</div>
+          <div class="text"><a href="/#/event1">Orquesta Clásica U. de Santiago en Pedro Aguirre Cerda</a><br>23/01/2019 - 17:00</div>
         </div>
       </div>
       <div class="item">
         <div class="evento-login-2">
-          <div class="text"><a href="/#/event3">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</a><br><br>28/01/2019 - 17:00</div>
+          <div class="text"><a href="/#/event3">Atlas Cinematográfico de Chile presenta el documental “En Tránsito”</a><br>28/01/2019 - 17:00</div>
         </div>
       </div>
       <div class="item">
         <div class="evento-login-3">
-          <div class="text"><a href="/#/event2">VI Panel de Educación No Sexista</a><br><br>25/01/2019 - 10:00</div>
+          <div class="text"><a href="/#/event2">VI Panel de Educación No Sexista</a><br>25/01/2019 - 10:00</div>
         </div>
       </div>
     </div>
