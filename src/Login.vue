@@ -34,9 +34,6 @@
 </template>
 
 <style>
-footer {
-  margin-top: 20em;
-}
 </style>
 
 <script>

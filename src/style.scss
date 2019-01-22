@@ -651,3 +651,253 @@ footer {
 .local-navigation{
   background-color: blue;
 }
+
+.events-login{
+  display: grid;
+  margin-top: 1em;
+  box-shadow: 0.5em 0.5em 0.5em $third-color;
+  .title{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 2em;
+    border-bottom: 5px solid $main-color;
+    text-align: start;
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darken($third-color, 35%)
+  }
+  .preferences{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    text-align: start;
+    justify-content: space-between;
+    padding-left: 1em;
+    font-weight: bold;
+    color: darken($third-color, 35%)
+  }
+  .events{
+    background-color: goldenrod;
+    grid: display;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .first{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .item{
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    border: 5px solid white;
+  }
+  .evento-login-1{
+    display: grid;
+    background-image: url('./img/evento-2.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
+  .evento-login-2{
+    display: grid;
+    background-image: url('./img/evento-3.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
+  .evento-login-3{
+    display: grid;
+    background-image: url('./img/evento-4.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
+}
+
+
+.news-login{
+  display: grid;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  box-shadow: 0.5em 0.5em 0.5em $third-color;
+  .title{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 2em;
+    border-bottom: 5px solid $main-color;
+    text-align: start;
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darken($third-color, 35%)
+  }
+  .preferences{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    text-align: start;
+    justify-content: space-between;
+    padding-left: 1em;
+    font-weight: bold;
+    color: darken($third-color, 35%)
+  }
+  .events{
+    background-color: goldenrod;
+    grid: display;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .first{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .item{
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    border: 5px solid white;
+  }
+  .news-login-first{
+    display: grid;
+    background-image: url('./img/news/deportes-2.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+  }
+  .news-login-1{
+    display: grid;
+    background-image: url('./img/news/cultura-2.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
+  .news-login-2{
+    display: grid;
+    background-image: url('./img/news/educacion-2.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
+  .news-login-3{
+    display: grid;
+    background-image: url('./img/news/ciencia-1.jpg');
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .text{ 
+      position: relative; 
+        left: 0; 
+        width: 100%; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        color: white;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        text-align: start;
+        padding-left: 0.5em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+  }
+}
