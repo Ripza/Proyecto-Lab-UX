@@ -651,7 +651,7 @@ footer {
     a { 
         color: $secondary-color;
         &:hover{
-          color: lighten($secondary-color, 20%);
+          color: #005bd2 !important;
         }
     }
   }
