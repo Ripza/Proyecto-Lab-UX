@@ -26,16 +26,19 @@
       </form>
     </div>
 
+  <footer>
+    <FooterContent></FooterContent>
+  </footer>
+
 </div>
 </template>
 
 <style>
-footer {
-  margin-top: 0em;
-}
 </style>
 
 <script>
+import FooterContent from './FooterContent.vue';
+
 export default{
   data(){
     return{
@@ -44,6 +47,9 @@ export default{
   },
   mounted:function(){
     console.log('Index.vue')
+  },
+    components:{
+    FooterContent
   }
 }
 </script>

@@ -6,17 +6,20 @@
     <p>
       Plantilla hecha con Vue.js y Webpack
     </p>
+
+  <footer>
+    <FooterContent></FooterContent>
+  </footer>
     
 </div>
 </template>
 
 <style>
-footer {
-  margin-top: 10em;
-}
 </style>
 
 <script>
+import FooterContent from './FooterContent.vue';
+
 export default{
   data(){
     return{
@@ -25,6 +28,9 @@ export default{
   },
   mounted:function(){
     console.log('Index.vue')
+  },
+  components:{
+    FooterContent
   }
 }
 </script>
