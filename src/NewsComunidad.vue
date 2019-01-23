@@ -23,11 +23,12 @@
     </div>
   
   <div class="news-list">
+
     <div class="news-item">
       <div class="salud-1"></div>
       <div class="text-side">
         <div class="category">Salud</div>
-        <div class="title">Investigación del Plantel revela positivo efecto de la dieta mediterránea en escolares chilenos</div>
+        <div class="title"><a href="/#/news1">Investigación del Plantel revela positivo efecto de la dieta mediterránea en escolares chilenos</a></div>
         <div class="date">16/03/2018</div>
       </div>
     </div>
@@ -35,7 +36,7 @@
       <div class="salud-2"></div>
       <div class="text-side">
         <div class="category">Salud</div>
-        <div class="title">Universidad propone nuevo modelo predictivo para medir contaminación</div>
+        <div class="title"><a href="/#/news2">Universidad propone nuevo modelo predictivo para medir contaminación</a></div>
         <div class="date">25/04/2017</div>
       </div>
     </div>
@@ -43,7 +44,7 @@
       <div class="deportes-1"></div>
       <div class="text-side">
         <div class="category">Deportes</div>
-        <div class="title">Licaf va por el bicampeonato y Periodismo sueña con volver a primera</div>
+        <div class="title"><a href="/#/news3">Licaf va por el bicampeonato y Periodismo sueña con volver a primera</a></div>
         <div class="date">13/12/2018</div>
       </div>
     </div>
@@ -51,7 +52,7 @@
       <div class="deportes-2"></div>
       <div class="text-side">
         <div class="category">Deportes</div>
-        <div class="title">Rugby femenino de la Usach se coronó campeón del torneo de clausura</div>
+        <div class="title"><a href="/#/news4">Rugby femenino de la Usach se coronó campeón del torneo de clausura</a></div>
         <div class="date">23/11/2018</div>
       </div>
     </div>
@@ -59,7 +60,7 @@
       <div class="cultura-1"></div>
       <div class="text-side">
         <div class="category">Cultura</div>
-        <div class="title">Activista Blas Radi expuso en la Usach sobre el aborto desde una perspectiva trans</div>
+        <div class="title"><a href="/#/news5">Activista Blas Radi expuso en la Usach sobre el aborto desde una perspectiva trans</a></div>
         <div class="date">20/11/2018</div>
       </div>
     </div>
@@ -67,10 +68,11 @@
       <div class="cultura-2"></div>
       <div class="text-side">
         <div class="category">Cultura</div>
-        <div class="title">Hay interesantes premios: participa en el concurso de fotografía sobre Derechos Humanos</div>
+        <div class="title"><a href="/#/news6">Hay interesantes premios: participa en el concurso de fotografía sobre Derechos Humanos</a></div>
         <div class="date">08/11/2018</div>
       </div>
     </div>
+    
   </div>
 
   <footer>

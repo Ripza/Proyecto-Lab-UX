@@ -27,7 +27,7 @@
       <div class="economia-1"></div>
       <div class="text-side">
         <div class="category">Economía</div>
-        <div class="title">Economista Pattillo frente a incremento del desempleo: “Imagen global no se ve mal, pero en detalle es compleja”</div>
+        <div class="title"><a href="/#/news11">Economista Pattillo frente a incremento del desempleo: “Imagen global no se ve mal, pero en detalle es compleja”</a></div>
         <div class="date">02/01/2018</div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="economia-2"></div>
       <div class="text-side">
         <div class="category">Economía</div>
-        <div class="title">Alto nivel de endeudamiento revela poca educación financiera de los chilenos</div>
+        <div class="title"><a href="/#/news12">Alto nivel de endeudamiento revela poca educación financiera de los chilenos</a></div>
         <div class="date">11/17/2017</div>
       </div>
     </div>
