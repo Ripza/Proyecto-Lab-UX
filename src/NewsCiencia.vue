@@ -27,7 +27,7 @@
       <div class="ciencia-1"></div>
       <div class="text-side">
         <div class="category">Ciencia y Tecnología</div>
-        <div class="title">Torneo de robótica en Planetario define a ganadores para competencia internacional</div>
+        <div class="title"><a href="/#/news9">Torneo de robótica en Planetario define a ganadores para competencia internacional</a></div>
         <div class="date">12/06/2017</div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="ciencia-2"></div>
       <div class="text-side">
         <div class="category">Ciencia y Tecnología</div>
-        <div class="title">Investigan efectos de algas marinas para remover hidrocarburos del mar</div>
+        <div class="title"><a href="/#/news10">Investigan efectos de algas marinas para remover hidrocarburos del mar</a></div>
         <div class="date">18/01/2018</div>
       </div>
     </div>

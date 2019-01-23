@@ -27,7 +27,7 @@
       <div class="deportes-1"></div>
       <div class="text-side">
         <div class="category">Deportes</div>
-        <div class="title">Licaf va por el bicampeonato y Periodismo sueña con volver a primera</div>
+        <div class="title"><a href="/#/news3">Licaf va por el bicampeonato y Periodismo sueña con volver a primera</a></div>
         <div class="date">13/12/2018</div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="deportes-2"></div>
       <div class="text-side">
         <div class="category">Deportes</div>
-        <div class="title">Rugby femenino de la Usach se coronó campeón del torneo de clausura</div>
+        <div class="title"><a href="/#/news4">Rugby femenino de la Usach se coronó campeón del torneo de clausura</a></div>
         <div class="date">23/11/2018</div>
       </div>
     </div>

@@ -27,7 +27,7 @@
       <div class="cultura-1"></div>
       <div class="text-side">
         <div class="category">Cultura</div>
-        <div class="title">Activista Blas Radi expuso en la Usach sobre el aborto desde una perspectiva trans</div>
+        <div class="title"><a href="/#/news5">Activista Blas Radi expuso en la Usach sobre el aborto desde una perspectiva trans</a></div>
         <div class="date">20/11/2018</div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="cultura-2"></div>
       <div class="text-side">
         <div class="category">Cultura</div>
-        <div class="title">Hay interesantes premios: participa en el concurso de fotografía sobre Derechos Humanos</div>
+        <div class="title"><a href="/#/news6">Hay interesantes premios: participa en el concurso de fotografía sobre Derechos Humanos</a></div>
         <div class="date">08/11/2018</div>
       </div>
     </div>
